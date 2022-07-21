@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Página de Cadastro de Demanda SENAI</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Cadastro de Demanda SENAI">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+<body class="fundo">
+	<header>
+		<div class="logo">
+			<img src="imagens/Assinatura digital SENAI-02 branco.png" alt="Logotipo do SENAI">
+		</div>
+	</header>
+	<section>
+		<div class="conteudo-form">
+			<h2>Cadastre nos Cursos SENAI</h2>
+				<form method="post" action="">
+					<div class="input-form">
+						<i class="far fa-user"></i>
+						<input required type="text" name="nome"placeholder="Nome completo">
+					</div>
+					<div class="input-form">
+						<i class="far fa-at"></i>
+						<input required type="email" name="email"placeholder="Seu email">
+					</div>
+					<div class="input-form">
+						<i class="fab fa-whatsapp"></i>
+						<input required type="text" name="telefone"placeholder="(68) 99999-9999">
+					</div>
+					<div class="input-form">
+						<i class="fa-solid fa-clock"></i>
+						<select name="horario" required>
+							<option value="0">Qual o horário disponível?</option>
+							<option value="1">Matutino</option>
+							<option value="2">Vespertino</option>
+							<option value="3">Noturno</option>
+							<option value="4">Todos</option>
+						</select>
+					</div>
+					<div class="input-form">
+						<i class="fa-solid fa-school"></i>
+						<input type="text" name="curso"placeholder="Curso desejado">
+					</div>
+
+					<button name="enviar">Salvar</button>
+
+				</form>
+				
+		</div>
+	</section>
+</body>
+</html>
