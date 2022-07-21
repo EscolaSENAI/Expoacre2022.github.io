@@ -1,6 +1,6 @@
 body.fundo{
 	margin:  0;
-	background: url('imagens/bg.png') no-repeat top center;
+	background-color: #003460;
 	background-size: cover;
 	height: 100vh;
 	font-family: 'Lato', sans-serif;
