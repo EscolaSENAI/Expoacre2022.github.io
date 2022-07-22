@@ -1,6 +1,6 @@
 body.fundo{
 	margin:  0;
-	background-color: #003460;
+	background: url('Imagens/bg.png') no-repeat top center;
 	background-size: cover;
 	height: 100vh;
 	font-family: 'Lato', sans-serif;
@@ -17,7 +17,7 @@ body.fundo{
 	display: block;
 	margin: 0 auto 50px;
 	width: 95%;
-	opacity:0.75;
+	opacity:0.4;
 }
 .label i{
 	width: 42px;
